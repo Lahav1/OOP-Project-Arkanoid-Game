@@ -1,0 +1,78 @@
+# Level 1
+
+START_LEVEL
+level_name:Galaxy
+ball_velocities:45,550 -45,550
+background:image(background_images/galaxy.jpg)
+paddle_speed:650
+paddle_width:120
+block_definitions:definitions/galaxy_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:26
+START_BLOCKS
+-
+-
+-
+-
+--z-z-z-z-z-z---
+-
+-
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+
+START_LEVEL
+level_name:Fire Fighter
+ball_velocities:45,550 -45,550 -30,550
+background:image(background_images/fire.jpg)
+paddle_speed:650
+paddle_width:120
+block_definitions:definitions/firefighter_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:26
+START_BLOCKS
+-
+--a-b-c-d-e-f---
+--a-b-c-d-e-f---
+--a-b-c-d-e-f---
+--a-b-c-d-e-f---
+-
+-
+END_BLOCKS
+END_LEVEL
+
+
+# Level 3
+
+START_LEVEL
+level_name:Matrix
+ball_velocities:45,550 -45,550 -30,550
+background:image(background_images/matrix.jpg)
+paddle_speed:650
+paddle_width:120
+block_definitions:definitions/matrix_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:26
+START_BLOCKS
+-
+-
+-
+-z-z-z-z-z-z-z--
+--z-z-z-z-z-z---
+-z-z-z-z-z-z-z--
+--z-z-z-z-z-z---
+-z-z-z-z-z-z-z--
+-
+-
+END_BLOCKS
+END_LEVEL
+
+
